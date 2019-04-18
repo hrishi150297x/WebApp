@@ -1,0 +1,320 @@
+<!--<form id="msform" name ="highEduForm" autocomplete="on">
+            <h2 class="fs-title">Enter Your Personal Details</h2>
+            <h3 class="fs-subtitle">This is step 1</h3>
+            <input type="text" name="First_Name" id="fname" maxlength="50" placeholder="Enter your full name" required />
+            <input type="date" name="Birthday" placeholder="Enter your Birth date" required/>
+            <input type="email" name="Email_Id" id="txtEmail" maxlength="100" placeholder="Enter your valid email" required />
+            <input type="number" name="Mobile_Number" placeholder="Enter your valid phone number" pattern="[0-9]{10}" required />
+            <textarea name="Address" rows="4" cols="30" placeholder="Enter your valid address" required /></textarea>
+            <input type="button" name="next" class="next action-button" value="Next" />
+
+
+            <h2 class="fs-title">Enter Your Family Details</h2>
+            <h3 class="fs-subtitle">This is step 2</h3>
+
+            <table>
+                <tr>
+                    <td align="center"><b>Name</b></td>
+                    <td align="center"><b>Age</b></td>
+                    <td align="center"><b>Relation</b></td>
+                    <td align="center"><b>Occupation/<br>Standard</b></td>
+                    <td align="center"><b>Income</b></td>
+                </tr>
+
+                <tr>
+                    <td><input type="text" name="Name" maxlength="30" /></td>
+                    <td><input type="text" name="Age" maxlength="30" /></td>
+                    <td><input type="text" name="Relation" maxlength="30" /></td>
+                    <td><input type="text" name="Occupation" maxlength="30" /></td>
+                    <td><input type="text" name="Income" maxlength="30" /></td>
+                </tr>
+
+                <tr>
+                    <td><input type="text" name="Name" maxlength="30" /></td>
+                    <td><input type="text" name="Age" maxlength="30" /></td>
+                    <td><input type="text" name="Relation" maxlength="30" /></td>
+                    <td><input type="text" name="Occupation" maxlength="30" /></td>
+                    <td><input type="text" name="Income" maxlength="30" /></td>
+                </tr>
+
+                <tr>
+                    <td><input type="text" name="Name" maxlength="30" /></td>
+                    <td><input type="text" name="Age" maxlength="30" /></td>
+                    <td><input type="text" name="Relation" maxlength="30" /></td>
+                    <td><input type="text" name="Occupation" maxlength="30" /></td>
+                    <td><input type="text" name="Income" maxlength="30" /></td>
+                </tr>
+
+                <tr>
+                    <td><input type="text" name="Name" maxlength="30" /></td>
+                    <td><input type="text" name="Age" maxlength="30" /></td>
+                    <td><input type="text" name="Relation" maxlength="30" /></td>
+                    <td><input type="text" name="Occupation" maxlength="30" /></td>
+                    <td><input type="text" name="Income" maxlength="30" /></td>
+                </tr>
+
+                <tr>
+                    <td><input type="text" name="Name" maxlength="30" /></td>
+                    <td><input type="text" name="Age" maxlength="30" /></td>
+                    <td><input type="text" name="Relation" maxlength="30" /></td>
+                    <td><input type="text" name="Occupation" maxlength="30" /></td>
+                    <td><input type="text" name="Income" maxlength="30" /></td>
+                </tr>
+
+                <tr>
+                    <td><input type="text" name="Name" maxlength="30" /></td>
+                    <td><input type="text" name="Age" maxlength="30" /></td>
+                    <td><input type="text" name="Relation" maxlength="30" /></td>
+                    <td><input type="text" name="Occupation" maxlength="30" /></td>
+                    <td><input type="text" name="Income" maxlength="30" /></td>
+                </tr>
+
+            </table>
+
+            <input type="button" name="previous" class="previous action-button" value="Previous" />
+            <input type="button" name="next" class="next action-button" value="Next" />
+        </fieldset>
+
+        <fieldset>
+            <h2 class="fs-title">Enter Your Education Details</h2>
+            <h3 class="fs-subtitle">This is step 3</h3>
+                <table>
+                    <tr>
+                        <td align="center"><b>Sl.No.</b></td>
+                        <td align="center"><b>Examination</b></td>
+                        <td align="center"><b>Board</b></td>
+                        <td align="center"><b>Percentage</b></td>
+                        <td align="center"><b>Year of Passing</b></td>
+                    </tr>
+
+                    <tr>
+                        <td>&nbsp;&nbsp;1</td>
+                        <td>Class X</td>
+                        <td><input type="text" name="ClassX_Board" maxlength="50" /></td>
+                        <td><input type="number" name="ClassX_Percentage" min = "0" max = "100" pattern="[0-9]" /></td>
+                        <td><input type="number" name="Year_of_passing"  pattern="[0-9]{4}" /></td>
+                    </tr>
+
+                    <tr>
+                        <td>&nbsp;&nbsp;2</td>
+                        <td>Class XII</td>
+                        <td><input type="text" name="ClassXII_Board" maxlength="50" /></td>
+                         <td><input type="number" name="ClassXII_Percentage" min = "0" max = "100" pattern="[0-9]" /></td>
+                        <td><input type="number" name="Year_of_passing"  pattern="[0-9]{4}" /></td>
+                    </tr>
+                </table><br><br>
+                <table>
+                    <tr>
+                        <td>NAME OF THE <br>COLLEGE/INSTITUTE</td>
+                        <td><input type="text" name="College_Name"></td>
+                    </tr>
+                    <tr>
+                        <td>COURSES<br />APPLIED FOR</td>
+                        <td><input type="text" name="applied_course" maxlength="30" /></td>
+                    </tr>
+                </table>
+
+                <input type="button" name="previous" class="previous action-button" value="Previous" />
+				<input type="button" name="next" class="next action-button" value="Next" />
+        </fieldset>
+
+        <fieldset>
+            <h2 class="fs-title">Enter Total Expenses</h2>
+            <h3 class="fs-subtitle">This is step 4</h3>
+            <table>
+
+                
+        </fieldset>
+    </form>
+    -->
+
+<section class="container-fluid main-content">
+<div class="col-sm-10" style="width: 600px; margin-left: 440px; margin-top: 100px;">
+    <form method="POST" action="/higheredu">
+        <h2 style="margin-top: 10px; margin-left: 90px;">Enter Your Personal Details</h2>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+				<input type="text" class="form-control" name="name" placeholder="Student Name" required>
+			</div>
+
+			<div class="form-group col-md-6">
+              <input type="date" class="form-control" name="birthdate" required>
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <input type="email" class="form-control" name="email" placeholder="Email ID" required>
+            </div>
+
+            <div class="form-group col-md-6">
+              <input type="number" class="form-control" name="mobilenumber" placeholder="Mobile Number" required>
+            </div>
+        </div>  
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <textarea class="form-control" name="address" rows="3" cols="30" placeholder="Address" required></textarea>
+            </div> 
+        </div>
+        <div class="form-group">
+            <button type="button" name="next" class="next action-button btn btn-primary" style="margin-left: 225px;">NEXT</button>
+        </div>
+
+        <center><h2 style="margin-top: 10px; margin-left: -370px;">Enter Your Family Details</h2></center>  
+        <center>
+		<table class="table table-dark" style="margin-left: -460px;">
+  			<thead>
+    			<tr>
+                    <th scope="col">Name</th>
+                    <th scope="col">Age</th>
+                    <th scope="col">Relation</th>
+                    <th scope="col">Occupation/Standard</th>
+                    <th scope="col">Income</th>
+				</tr>
+                <tr>
+                    <td><input type="text" name="Name" maxlength="30" /></td>
+                    <td><input type="text" name="Age" maxlength="30" /></td>
+                    <td><input type="text" name="Relation" maxlength="30" /></td>
+                    <td><input type="text" name="Occupation" maxlength="30" /></td>
+                    <td><input type="text" name="Income" maxlength="30" /></td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="Name" maxlength="30" /></td>
+                    <td><input type="text" name="Age" maxlength="30" /></td>
+                    <td><input type="text" name="Relation" maxlength="30" /></td>
+                    <td><input type="text" name="Occupation" maxlength="30" /></td>
+                    <td><input type="text" name="Income" maxlength="30" /></td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="Name" maxlength="30" /></td>
+                    <td><input type="text" name="Age" maxlength="30" /></td>
+                    <td><input type="text" name="Relation" maxlength="30" /></td>
+                    <td><input type="text" name="Occupation" maxlength="30" /></td>
+                    <td><input type="text" name="Income" maxlength="30" /></td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="Name" maxlength="30" /></td>
+                    <td><input type="text" name="Age" maxlength="30" /></td>
+                    <td><input type="text" name="Relation" maxlength="30" /></td>
+                    <td><input type="text" name="Occupation" maxlength="30" /></td>
+                    <td><input type="text" name="Income" maxlength="30" /></td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="Name" maxlength="30" /></td>
+                    <td><input type="text" name="Age" maxlength="30" /></td>
+                    <td><input type="text" name="Relation" maxlength="30" /></td>
+                    <td><input type="text" name="Occupation" maxlength="30" /></td>
+                    <td><input type="text" name="Income" maxlength="30" /></td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="Name" maxlength="30" /></td>
+                    <td><input type="text" name="Age" maxlength="30" /></td>
+                    <td><input type="text" name="Relation" maxlength="30" /></td>
+                    <td><input type="text" name="Occupation" maxlength="30" /></td>
+                    <td><input type="text" name="Income" maxlength="30" /></td>
+                </tr>                 
+            </thead>
+        </table>
+
+        <button type="button" name="previous" class="previous action-button btn btn-primary" style="margin-left: -380px;">PREVIOUS</button>
+        <button type="button" name="next" class="next action-button btn btn-primary">NEXT</button>
+
+        <center><h2 style="margin-top: 10px; margin-left: 0;">Enter Your Educational Details</h2></center>  
+        <center>
+		<table class="table table-dark" style="margin-left: -75px;">
+  			<thead>
+    			<tr>
+                    <th scope="col">Sr. No.</th>
+                    <th scope="col">Examination</th>
+                    <th scope="col">Board</th>
+                    <th scope="col">Percentage</th>
+                    <th scope="col">Year Of Passing</th>
+				</tr>
+                <tr>
+                    <td>&nbsp;&nbsp;1</td>
+                    <td>Class X</td>
+                    <td><input type="text" name="ClassX_Board" maxlength="50" /></td>
+                    <td><input type="number" name="ClassX_Percentage" min = "0" max = "100" pattern="[0-9]" /></td>
+                    <td><input type="number" name="Year_of_passing"  pattern="[0-9]{4}" /></td>
+                </tr>
+                <tr>
+                    <td>&nbsp;&nbsp;2</td>
+                    <td>Class XII</td>
+                    <td><input type="text" name="ClassXII_Board" maxlength="50" /></td>
+                     <td><input type="number" name="ClassXII_Percentage" min = "0" max = "100" pattern="[0-9]" /></td>
+                    <td><input type="number" name="Year_of_passing"  pattern="[0-9]{4}" /></td>
+                </tr>
+            </thead>
+        </table><br>
+        <table class="table table-dark" style="margin-left: 0;">
+  			<thead>
+                <tr>
+                    <td>Name Of The College/Institute</td>
+                    <td><input type="text" name="schoolname"></td>
+                </tr>
+                <tr>
+                    <td>Courses Applied For</td>
+                    <td><input type="text" name="applied_course" maxlength="30" /></td>
+                </tr>
+            </thead>
+        </table>
+        <button type="button" name="previous" class="previous action-button btn btn-primary" style="margin-left: -55px;">PREVIOUS</button>
+        <button type="button" name="next" class="next action-button btn btn-primary">NEXT</button>
+
+        <h2 style="margin-top: 10px; margin-left: 25px;">Enter Total Expenses</h2>
+        <center>
+		<table class="table table-dark" style="margin-left: -40px;">
+  			<thead>
+                <tr>
+                    <td align="center">Details of Expenses</td>
+                    <td align="center">2018-19</td>
+                    <td align="center">Bank Loan (If Any)</td>
+                    <td align="center"><input onblur="findTotal()" type="number" name="exp"></td>
+                </tr>
+                <tr>
+                    <td align="center">College Fees</td>
+                    <td><input onblur="findTotal()" type="number"  name="exp" /></td>
+                    <td align="center">EBC/OBC Facility Received From College In Rs.</td>
+                    <td align="center"><input  onblur="findTotal()" type="number" name="exp"></td>
+                </tr>
+                <tr>
+                    <td align="center">Travel Expenses</td>
+                    <td><input onblur="findTotal()" type="number"  name="exp" /></td>
+                    <td align="center">Family Contribution</td>
+                    <td align="center"><input onblur="findTotal()" type="number" name="exp"></td>
+                </tr>
+                <tr>
+                    <td align="center">Stationery</td>
+                    <td><input onblur="findTotal()" type="number"  name="exp" /></td>
+                    <td align="center">Relative Contribution</td>
+                    <td align="center"><input onblur="findTotal()" type="number" name="exp"></td>
+                </tr>
+
+                <tr>
+                    <td align="center">Uniform</td>
+                    <td><input onblur="findTotal()" type="number"   name="exp" /></td>
+                    <td align="center">Other Contribution (If Any)</td>
+                    <td align="center"><input onblur="findTotal()" type="number" name="exp" /></td>
+                </tr>
+
+                <tr>
+                    <td align="center">Class Fees</td>
+                    <td><input onblur="findTotal()" type="number" name="exp"  /></td>
+                    <td align="center">CFI Contribution</td>
+                    <td align="center"><input onblur="findTotal()" type="number" name="exp" /></td>
+                </tr>
+
+                <tr>
+                    <td align="center">Hostel Fees/Rent</td>
+                    <td><input onblur="findTotal()" type="number"  name="exp"  /></td>
+                    <td align="center">Total EXpenses</td>
+                    <td align="center"><input type="text" id="Total_Expenses" name="Total_Expenses"></td>
+                </tr>
+            </thead>
+        </table>
+    	<button type="button" name="previous" class="previous action-button btn btn-primary">PREVIOUS</button>
+        <button type="button" name="submit" onclick="personal()" class="submit action-button btn btn-primary">SUBMIT</button>
+
+    </form>
+</div>
+</section>
+

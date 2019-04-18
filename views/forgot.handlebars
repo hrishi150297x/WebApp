@@ -1,0 +1,25 @@
+<section class="container-fluid main-content">
+{{#if error}}
+    <p>{{error}}</p>
+{{/if}}
+
+    <p>Please enter your valid mobile number (in international format, starting with +) to receive an OTP:</p>
+    <div class="col-sm-10" style="width: 600px; margin-left: 440px; margin-top: 100px;">
+        <div class="jumbotron" style="background-color: #c8cac9;">
+            <div class="form-group" style="margin-top: -50px;">
+                <h1 style="margin-top: 10px; margin-left: 160px;">Forgot Password...No Problem !!</h1>
+            </div>
+
+            <form method="POST" action="/users/reset" class="form-horizontal" style="margin-left: 50px; margin-top: 20px;">        
+                <div class="form-group input-group">
+                    <input type="tel" name="mobilenumber" placeholder="Mobile Number">
+                </div>
+
+                <div class="form-group input-group">
+                    <button type="submit" class="btn btn-primary">SEND OTP</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+

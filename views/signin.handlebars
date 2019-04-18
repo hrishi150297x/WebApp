@@ -1,0 +1,37 @@
+<section class="container-fluid main-content">
+  <div class="col-sm-10" style="width: 600px; margin-left: 440px; margin-top: 100px;">
+    <div class="jumbotron" style="background-color: #c8cac9;">
+      <div class="form-group" style="margin-top: -50px;">
+        <i class="far fa-user-circle" style="font-size: 70px;margin: 20px 216px 0;"></i>
+        <h1 style="margin-top: 10px; margin-left: 190px;">Sign In</h1>
+      </div>
+    
+      <form method="POST" action="/users/signin" class="form-horizontal" style="margin-left: 50px; margin-top: 20px;" >
+        <div class="form-group input-group">
+          <i class="fas fa-user" style="margin-left: -25px; margin-top: 10px;"></i>&nbsp;&nbsp;
+          <input type="text" class="form-control" name="username" placeholder="Username" required>
+        </div>
+        
+        <div class="form-group input-group">
+          <i class="fas fa-lock" style="margin-left: -25px; margin-top: 10px;"></i>&nbsp;&nbsp;
+          <input type="password" class="form-control" name="password" placeholder="Password" required>
+        </div>
+
+        <div class="form-group">
+          <span class="remember"><input type="checkbox" id="rememberMe" style="margin-left: 10px;">&nbsp;
+          <label for = "rememberMe">Keep Me Signed In</label></span>         
+          <span class="remember"><a href="/users/forgot" style="margin-left: 135px;">Forgot Password?</a></span>
+        </div>
+
+        <div class="form-group">
+          <button type="submit" class="btn btn-primary" style="width: 430px; margin-left: 8px;">SIGN IN</button>
+        </div>
+
+        <div class="form-group">
+          <span class="remember"><a href="/users/register" style="margin-left: 90px;">Don't Have An Account? Create One</a></span>
+        </div>      
+      </form>
+    </div>  
+  </div>
+</section>
+  
